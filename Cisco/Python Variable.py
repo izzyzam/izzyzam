@@ -29,3 +29,4 @@ print("Total number of apples: ", + total_apples)
 sheep = 1
 sheep += 1
 print(sheep)
+#with the += component is a shortcut way to not continuously do sheep = sheep + 1. Can do it with x = x*2 as x *= 2.
