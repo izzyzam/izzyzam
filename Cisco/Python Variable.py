@@ -30,3 +30,22 @@ sheep = 1
 sheep += 1
 print(sheep)
 #with the += component is a shortcut way to not continuously do sheep = sheep + 1. Can do it with x = x*2 as x *= 2.
+kilometers = 12.25
+miles = 7.38
+
+miles_to_kilometers = (miles * 1.61)
+kilometers_to_miles = (kilometers / 1.61)
+
+print(miles, "miles is", round(miles_to_kilometers, 2), "kilometers")
+print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles")
+#with with Lab, we converted km to miles and miles to km. Each mile has 1.61 km.
+x = -1
+x = float(x)
+y = (3*x**3 - 2*x**2 + 3*x - 1)
+print("y =", y)
+#this Lab had me taking the expression 3x3 - 2x2 + 3x - 1 and making it compatiable and having it = to the value of y. i added parathesis and the * to make it work. Note that it has x = float(x) to give y = a float answer
+a = 6
+b = 3
+a /= 2 * b
+print(a)
+#print 2*b=6 a=6-> 6/6=1.0
